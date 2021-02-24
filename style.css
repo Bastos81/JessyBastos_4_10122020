@@ -3,6 +3,7 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
+    justify-content: center;
 }
 
 a,
@@ -56,11 +57,13 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 5px;
 }
 
 .col-sm-14 H2{
     font-size: 2.2rem;
     max-width: 800px;
+    
 }
 
 .col-sm-14 .customer-opinion{
@@ -713,6 +716,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -789,10 +794,25 @@ h4 {
     color: white!important;
 }
 
+.text-s2{
+    font-size: 1.4rem;
+}
+
+.text-s3{
+    font-size: 1.4rem;
+}
+
+.text-s3 a{
+    font-size: 1.8rem;
+}
+
+.text-s4{
+    font-size: 1.4rem;
+}
 
 .btn-atomic-tangerine {
-    background: #b34e20;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
