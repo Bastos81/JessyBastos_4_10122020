@@ -2247,6 +2247,19 @@ pre code {
     margin-left: 0
 }
 
+nav ul li a{
+    font-weight: 700;
+    border-top: 2px solid transparent;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+nav ul li a:hover{
+    font-weight: 700;
+    color: #F3976C!important;
+    border-top: 2px solid #F3976C;
+}
+
 @media (min-width:768px) {
     .col-sm-1,
     .col-sm-10,
@@ -2281,7 +2294,7 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%;
+        width: 100%;
         padding: 15px;
     }
 
@@ -6986,7 +6999,10 @@ button.close {
 
 .modal-body {
     position: relative;
-    padding: 15px
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .modal-footer {
