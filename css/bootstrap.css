@@ -92,6 +92,9 @@ sup {
     vertical-align: baseline
 }
 
+#description1{
+    color: white;
+}
 sup {
     top: -.5em
 }
@@ -2289,7 +2292,9 @@ pre code {
         width: 41.66666667%
     }
     .col-sm-4 {
-        width: 33.33333333%
+        width: 33.33333333%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .col-sm-3 {
         width: 25%

@@ -60,12 +60,25 @@ a:hover {
     padding: 5px;
 }
 
-.col-sm-14 H2{
-    font-size: 2.2rem;
+.col-sm-14 H2, .col-sm-12 H2{
+    font-size: 3.5rem;
+    font-weight: 700;
     max-width: 800px;
     
 }
 
+.col-sm-12 ul{
+    font-size: 1.8rem;
+}
+
+.col-sm-12 a{
+    font-size: 2rem;
+}
+
+.col-sm-12 .cont_a{
+    display: flex;
+    justify-content: center;
+}
 .col-sm-14 .customer-opinion{
     font-size: 2rem;
     font-style: italic;
@@ -730,6 +743,26 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+}
+
+.presentation1{
+    font-size: 1.8rem!important;
+    color: white!important;
+    text-align: center;
+}
+
+.col-sm-12 .white12{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: black!important;
+}
+
+.icon-md{
+    color: black!important;
+}
+
+.icon-md:hover{
+    color: white!important;
 }
 
 .med-width-whitespace {
