@@ -2299,6 +2299,11 @@ nav ul li a:hover{
         max-width: 300px;
     }
 
+    .col-sm-60 {
+        width: 100%;
+        padding: 15px;
+    }
+
     .col-sm-6 img{
         vertical-align: middle;
     }
